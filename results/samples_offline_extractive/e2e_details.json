@@ -1,0 +1,2062 @@
+{
+ "hybrid+rerank, planner+verifier (full)": [
+  {
+   "id": "F01",
+   "type": "factual",
+   "question": "What is the aggregate liability cap in Section 7.2 of the Master Services Agreement?",
+   "answer": "7.2 Subject to Section 7.3, each party's total aggregate liability arising out of or in connection with this Agreement shall not exceed EUR 2,000,000 (two million euros) in any contract year. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 7.2"
+   ],
+   "latency_s": 0.006281745000023875,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 315,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F02",
+   "type": "factual",
+   "question": "How much notice does the Customer need to give to terminate the Agreement for convenience?",
+   "answer": "3.2 The Customer may terminate this Agreement for convenience by giving the Supplier not less than ninety (90) days' written notice. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 1 \u00b7 Section 3.2"
+   ],
+   "latency_s": 0.0028891769998153904,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 331,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F03",
+   "type": "factual",
+   "question": "What monthly platform availability does the Supplier guarantee?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.000985439000032784,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 338,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "key term(s) ['guarante'] occur in none of the documents"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F04",
+   "type": "factual",
+   "question": "Within how many hours must the Processor notify the Controller of a personal data breach?",
+   "answer": "The Processor shall notify the Controller without undue delay and in any event within forty-eight (48) hours after becoming aware of a personal data breach. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.5,
+   "citations": [
+    "03_data_processing_addendum.pdf \u00b7 p. 1 \u00b7 Article 4(1)"
+   ],
+   "latency_s": 0.0036371379999309283,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 281,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F05",
+   "type": "factual",
+   "question": "Which law governs the Master Services Agreement and which courts have jurisdiction?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.0039252740000392805,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 475,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "draft-insufficient",
+     "detail": "generator reported insufficient evidence"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F06",
+   "type": "factual",
+   "question": "For how long do the confidentiality obligations survive termination?",
+   "answer": "6.2 The obligations in this Section 6 survive termination of this Agreement for a period of five (5) years. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 3 \u00b7 Section 6.2"
+   ],
+   "latency_s": 0.0021711070000947075,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 261,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F07",
+   "type": "factual",
+   "question": "What professional indemnity insurance must the Supplier maintain?",
+   "answer": "INSURANCE 10.1 The Supplier shall maintain professional indemnity insurance with a limit of not less than EUR 5,000,000 per claim and cyber liability insurance of not less than EUR 3,000,000. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 10.1"
+   ],
+   "latency_s": 0.0029612449998239754,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 380,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F08",
+   "type": "factual",
+   "question": "Who signed Amendment No. 1 on behalf of Clearpath Software Ltd?",
+   "answer": "Schedule B - Signatories Signed for and on behalf of Clearpath Software Ltd by Maria Jensen, Chief Executive Officer, on 14 February 2026 in Dublin. [C1]",
+   "confidence": "MEDIUM",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "02_amendment_no1.pdf \u00b7 p. 3 \u00b7 Schedule B"
+   ],
+   "latency_s": 0.0023414170000251033,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 421,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F09",
+   "type": "factual",
+   "question": "How much advance notice must the Processor give before adding or replacing a sub-processor?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.000984457000186012,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 245,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "key term(s) ['befor'] occur in none of the documents"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F10",
+   "type": "factual",
+   "question": "Late payments bear interest above which base rate?",
+   "answer": "Late payments bear interest at eight percentage points above the base rate1. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.5,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 3 \u00b7 Section 4.2"
+   ],
+   "latency_s": 0.003108594999957859,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 290,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M01",
+   "type": "multihop",
+   "question": "Does the liability cap in Section 7 exceed the total indemnity obligations in Section 9?",
+   "answer": "7.2 Subject to Section 7.3, each party's total aggregate liability arising out of or in connection with this Agreement shall not exceed EUR 2,000,000 (two million euros) in any contract year. [C3] 7.3 Nothing in this Agreement limits liability for death or personal injury caused by negligence, for fraud, or for wilful misconduct. [C5] INDEMNITIES 9.1 The Supplier shall indemnify the Customer against all Losses arising from the claims listed in Table 9.1, up to the amounts stated for each indemnity. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.25,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 7.2",
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 7.3",
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 9.1"
+   ],
+   "latency_s": 0.007488292999823898,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 472,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "3/3 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M02",
+   "type": "multihop",
+   "question": "What is the annual subscription fee after Amendment No. 1, and by how much did it increase compared with the original Agreement?",
+   "answer": "AMENDMENTS 2.1 Section 4.1 of the Agreement is amended so that the annual subscription fee is EUR 1,350,000 (one million three hundred and fifty thousand euros) with effect from 1 March 2026. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 0.5,
+   "region_precision": 1.0,
+   "citations": [
+    "02_amendment_no1.pdf \u00b7 p. 1 \u00b7 Section 2.1"
+   ],
+   "latency_s": 0.005518672000107472,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 308,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M03",
+   "type": "multihop",
+   "question": "What is the current aggregate liability cap, taking Amendment No. 1 into account?",
+   "answer": "7.2 Subject to Section 7.3, each party's total aggregate liability arising out of or in connection with this Agreement shall not exceed EUR 2,000,000 (two million euros) in any contract year. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 0.5,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 7.2"
+   ],
+   "latency_s": 0.0029384099998424063,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 322,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M04",
+   "type": "multihop",
+   "question": "How long is the initial term after the amendment, and how much notice is needed to terminate for convenience?",
+   "answer": "3.2 The Customer may terminate this Agreement for convenience by giving the Supplier not less than ninety (90) days' written notice. [C1] 2.3 Section 3.1 of the Agreement is amended so that the initial term is forty-eight (48) months from the Effective Date. [C3]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 1 \u00b7 Section 3.2",
+    "02_amendment_no1.pdf \u00b7 p. 1 \u00b7 Section 2.3"
+   ],
+   "latency_s": 0.008913986999914414,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 725,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "2/2 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M05",
+   "type": "multihop",
+   "question": "Within how many hours must a personal data breach be notified, and within how many days must personal data be deleted after termination?",
+   "answer": "Upon termination of the Agreement, the Processor shall, at the choice of the Controller, return all Personal Data and delete existing copies within sixty (60) days, unless Union or Member State law requires storage. [C2] The Processor shall notify the Controller without undue delay and in any event within forty-eight (48) hours after becoming aware of a personal data breach. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.6666666666666666,
+   "citations": [
+    "03_data_processing_addendum.pdf \u00b7 p. 2 \u00b7 Article 5(1)",
+    "03_data_processing_addendum.pdf \u00b7 p. 1 \u00b7 Article 4(1)"
+   ],
+   "latency_s": 0.006288533000088137,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 465,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "2/2 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U01",
+   "type": "unanswerable",
+   "question": "What is the governing law of the subcontractor agreement?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.001059707999957027,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 592,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "key term(s) ['subcontractor'] occur in none of the documents"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U02",
+   "type": "unanswerable",
+   "question": "What is the Supplier's annual revenue?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.0012540449999960401,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 346,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "draft-insufficient",
+     "detail": "generator reported insufficient evidence"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U03",
+   "type": "unanswerable",
+   "question": "Who is the Data Protection Officer of Nordwind Logistics GmbH?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.0015814959999715938,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 427,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "draft-insufficient",
+     "detail": "generator reported insufficient evidence"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U04",
+   "type": "unanswerable",
+   "question": "What late-payment penalty does the Data Processing Addendum impose?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.0009543280000343657,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 301,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "key term(s) ['impos', 'penalty'] occur in none of the documents"
+    }
+   ],
+   "conflicts": []
+  }
+ ],
+ "dense-only, planner+verifier": [
+  {
+   "id": "F01",
+   "type": "factual",
+   "question": "What is the aggregate liability cap in Section 7.2 of the Master Services Agreement?",
+   "answer": "7.2 Subject to Section 7.3, each party's total aggregate liability arising out of or in connection with this Agreement shall not exceed EUR 2,000,000 (two million euros) in any contract year. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 7.2"
+   ],
+   "latency_s": 0.003060471000026155,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 315,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F02",
+   "type": "factual",
+   "question": "How much notice does the Customer need to give to terminate the Agreement for convenience?",
+   "answer": "3.2 The Customer may terminate this Agreement for convenience by giving the Supplier not less than ninety (90) days' written notice. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 1 \u00b7 Section 3.2"
+   ],
+   "latency_s": 0.0025042480001502554,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 310,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F03",
+   "type": "factual",
+   "question": "What monthly platform availability does the Supplier guarantee?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.0008669110000028013,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 338,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "key term(s) ['guarante'] occur in none of the documents"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F04",
+   "type": "factual",
+   "question": "Within how many hours must the Processor notify the Controller of a personal data breach?",
+   "answer": "The Processor shall notify the Controller without undue delay and in any event within forty-eight (48) hours after becoming aware of a personal data breach. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.5,
+   "citations": [
+    "03_data_processing_addendum.pdf \u00b7 p. 1 \u00b7 Article 4(1)"
+   ],
+   "latency_s": 0.0021751619999577088,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 246,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F05",
+   "type": "factual",
+   "question": "Which law governs the Master Services Agreement and which courts have jurisdiction?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.003803919000120004,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 539,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "draft-insufficient",
+     "detail": "generator reported insufficient evidence"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F06",
+   "type": "factual",
+   "question": "For how long do the confidentiality obligations survive termination?",
+   "answer": "6.2 The obligations in this Section 6 survive termination of this Agreement for a period of five (5) years. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 3 \u00b7 Section 6.2"
+   ],
+   "latency_s": 0.0019698280000284285,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 261,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F07",
+   "type": "factual",
+   "question": "What professional indemnity insurance must the Supplier maintain?",
+   "answer": "INSURANCE 10.1 The Supplier shall maintain professional indemnity insurance with a limit of not less than EUR 5,000,000 per claim and cyber liability insurance of not less than EUR 3,000,000. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 10.1"
+   ],
+   "latency_s": 0.0027779480001299817,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 380,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F08",
+   "type": "factual",
+   "question": "Who signed Amendment No. 1 on behalf of Clearpath Software Ltd?",
+   "answer": "Schedule B - Signatories Signed for and on behalf of Clearpath Software Ltd by Maria Jensen, Chief Executive Officer, on 14 February 2026 in Dublin. [C1]",
+   "confidence": "MEDIUM",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "02_amendment_no1.pdf \u00b7 p. 3 \u00b7 Schedule B"
+   ],
+   "latency_s": 0.002028980999966734,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 423,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F09",
+   "type": "factual",
+   "question": "How much advance notice must the Processor give before adding or replacing a sub-processor?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.0008371659998829273,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 236,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "key term(s) ['befor'] occur in none of the documents"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F10",
+   "type": "factual",
+   "question": "Late payments bear interest above which base rate?",
+   "answer": "Late payments bear interest at eight percentage points above the base rate1. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.5,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 3 \u00b7 Section 4.2"
+   ],
+   "latency_s": 0.0029535370001667616,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 290,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M01",
+   "type": "multihop",
+   "question": "Does the liability cap in Section 7 exceed the total indemnity obligations in Section 9?",
+   "answer": "7.2 Subject to Section 7.3, each party's total aggregate liability arising out of or in connection with this Agreement shall not exceed EUR 2,000,000 (two million euros) in any contract year. [C2] 7.3 Nothing in this Agreement limits liability for death or personal injury caused by negligence, for fraud, or for wilful misconduct. [C3] INDEMNITIES 9.1 The Supplier shall indemnify the Customer against all Losses arising from the claims listed in Table 9.1, up to the amounts stated for each indemnity. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.25,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 7.2",
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 7.3",
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 9.1"
+   ],
+   "latency_s": 0.007166291999965324,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 463,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "3/3 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M02",
+   "type": "multihop",
+   "question": "What is the annual subscription fee after Amendment No. 1, and by how much did it increase compared with the original Agreement?",
+   "answer": "AMENDMENTS 2.1 Section 4.1 of the Agreement is amended so that the annual subscription fee is EUR 1,350,000 (one million three hundred and fifty thousand euros) with effect from 1 March 2026. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 0.5,
+   "region_precision": 1.0,
+   "citations": [
+    "02_amendment_no1.pdf \u00b7 p. 1 \u00b7 Section 2.1"
+   ],
+   "latency_s": 0.004332357999828673,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 329,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M03",
+   "type": "multihop",
+   "question": "What is the current aggregate liability cap, taking Amendment No. 1 into account?",
+   "answer": "7.2 Subject to Section 7.3, each party's total aggregate liability arising out of or in connection with this Agreement shall not exceed EUR 2,000,000 (two million euros) in any contract year. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 0.5,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 7.2"
+   ],
+   "latency_s": 0.0031795350000720646,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 322,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M04",
+   "type": "multihop",
+   "question": "How long is the initial term after the amendment, and how much notice is needed to terminate for convenience?",
+   "answer": "3.2 The Customer may terminate this Agreement for convenience by giving the Supplier not less than ninety (90) days' written notice. [C1] 2.3 Section 3.1 of the Agreement is amended so that the initial term is forty-eight (48) months from the Effective Date. [C3]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 1 \u00b7 Section 3.2",
+    "02_amendment_no1.pdf \u00b7 p. 1 \u00b7 Section 2.3"
+   ],
+   "latency_s": 0.00863529599996582,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 725,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "2/2 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M05",
+   "type": "multihop",
+   "question": "Within how many hours must a personal data breach be notified, and within how many days must personal data be deleted after termination?",
+   "answer": "Upon termination of the Agreement, the Processor shall, at the choice of the Controller, return all Personal Data and delete existing copies within sixty (60) days, unless Union or Member State law requires storage. [C2] The Processor shall notify the Controller without undue delay and in any event within forty-eight (48) hours after becoming aware of a personal data breach. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.6666666666666666,
+   "citations": [
+    "03_data_processing_addendum.pdf \u00b7 p. 2 \u00b7 Article 5(1)",
+    "03_data_processing_addendum.pdf \u00b7 p. 1 \u00b7 Article 4(1)"
+   ],
+   "latency_s": 0.005957469000122728,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 483,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "2/2 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U01",
+   "type": "unanswerable",
+   "question": "What is the governing law of the subcontractor agreement?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.0009470919999330363,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 550,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "key term(s) ['subcontractor'] occur in none of the documents"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U02",
+   "type": "unanswerable",
+   "question": "What is the Supplier's annual revenue?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.0011764149999180518,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 346,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "draft-insufficient",
+     "detail": "generator reported insufficient evidence"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U03",
+   "type": "unanswerable",
+   "question": "Who is the Data Protection Officer of Nordwind Logistics GmbH?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.001332568999941941,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 427,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "draft-insufficient",
+     "detail": "generator reported insufficient evidence"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U04",
+   "type": "unanswerable",
+   "question": "What late-payment penalty does the Data Processing Addendum impose?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.0008608320001712855,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 301,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "key term(s) ['impos', 'penalty'] occur in none of the documents"
+    }
+   ],
+   "conflicts": []
+  }
+ ],
+ "hybrid+rerank, NO verifier": [
+  {
+   "id": "F01",
+   "type": "factual",
+   "question": "What is the aggregate liability cap in Section 7.2 of the Master Services Agreement?",
+   "answer": "7.2 Subject to Section 7.3, each party's total aggregate liability arising out of or in connection with this Agreement shall not exceed EUR 2,000,000 (two million euros) in any contract year. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 7.2"
+   ],
+   "latency_s": 0.004432719999840629,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 315,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "F02",
+   "type": "factual",
+   "question": "How much notice does the Customer need to give to terminate the Agreement for convenience?",
+   "answer": "3.2 The Customer may terminate this Agreement for convenience by giving the Supplier not less than ninety (90) days' written notice. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 1 \u00b7 Section 3.2"
+   ],
+   "latency_s": 0.004569979000052626,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 331,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "F03",
+   "type": "factual",
+   "question": "What monthly platform availability does the Supplier guarantee?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.001344356999879892,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 338,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "key term(s) ['guarante'] occur in none of the documents"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F04",
+   "type": "factual",
+   "question": "Within how many hours must the Processor notify the Controller of a personal data breach?",
+   "answer": "The Processor shall notify the Controller without undue delay and in any event within forty-eight (48) hours after becoming aware of a personal data breach. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.5,
+   "citations": [
+    "03_data_processing_addendum.pdf \u00b7 p. 1 \u00b7 Article 4(1)"
+   ],
+   "latency_s": 0.0030569360001209134,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 281,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "F05",
+   "type": "factual",
+   "question": "Which law governs the Master Services Agreement and which courts have jurisdiction?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.005381547000069986,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 475,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "draft-insufficient",
+     "detail": "generator reported insufficient evidence"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F06",
+   "type": "factual",
+   "question": "For how long do the confidentiality obligations survive termination?",
+   "answer": "6.2 The obligations in this Section 6 survive termination of this Agreement for a period of five (5) years. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 3 \u00b7 Section 6.2"
+   ],
+   "latency_s": 0.0025790550000692747,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 261,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "F07",
+   "type": "factual",
+   "question": "What professional indemnity insurance must the Supplier maintain?",
+   "answer": "INSURANCE 10.1 The Supplier shall maintain professional indemnity insurance with a limit of not less than EUR 5,000,000 per claim and cyber liability insurance of not less than EUR 3,000,000. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 10.1"
+   ],
+   "latency_s": 0.003466391000074509,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 380,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "F08",
+   "type": "factual",
+   "question": "Who signed Amendment No. 1 on behalf of Clearpath Software Ltd?",
+   "answer": "Schedule B - Signatories Signed for and on behalf of Clearpath Software Ltd by Maria Jensen, Chief Executive Officer, on 14 February 2026 in Dublin. [C1]",
+   "confidence": "MEDIUM",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "02_amendment_no1.pdf \u00b7 p. 3 \u00b7 Schedule B"
+   ],
+   "latency_s": 0.002361566999979914,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 421,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "F09",
+   "type": "factual",
+   "question": "How much advance notice must the Processor give before adding or replacing a sub-processor?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.0017411299998002505,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 245,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "key term(s) ['befor'] occur in none of the documents"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F10",
+   "type": "factual",
+   "question": "Late payments bear interest above which base rate?",
+   "answer": "Late payments bear interest at eight percentage points above the base rate1. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.5,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 3 \u00b7 Section 4.2"
+   ],
+   "latency_s": 0.0029318019999209355,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 290,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "M01",
+   "type": "multihop",
+   "question": "Does the liability cap in Section 7 exceed the total indemnity obligations in Section 9?",
+   "answer": "7.2 Subject to Section 7.3, each party's total aggregate liability arising out of or in connection with this Agreement shall not exceed EUR 2,000,000 (two million euros) in any contract year. [C3] 7.3 Nothing in this Agreement limits liability for death or personal injury caused by negligence, for fraud, or for wilful misconduct. [C5] INDEMNITIES 9.1 The Supplier shall indemnify the Customer against all Losses arising from the claims listed in Table 9.1, up to the amounts stated for each indemnity. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.25,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 7.2",
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 7.3",
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 9.1"
+   ],
+   "latency_s": 0.008357909000096697,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 472,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "M02",
+   "type": "multihop",
+   "question": "What is the annual subscription fee after Amendment No. 1, and by how much did it increase compared with the original Agreement?",
+   "answer": "AMENDMENTS 2.1 Section 4.1 of the Agreement is amended so that the annual subscription fee is EUR 1,350,000 (one million three hundred and fifty thousand euros) with effect from 1 March 2026. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 0.5,
+   "region_precision": 1.0,
+   "citations": [
+    "02_amendment_no1.pdf \u00b7 p. 1 \u00b7 Section 2.1"
+   ],
+   "latency_s": 0.005150347999915539,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 308,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "M03",
+   "type": "multihop",
+   "question": "What is the current aggregate liability cap, taking Amendment No. 1 into account?",
+   "answer": "7.2 Subject to Section 7.3, each party's total aggregate liability arising out of or in connection with this Agreement shall not exceed EUR 2,000,000 (two million euros) in any contract year. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 0.5,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 7.2"
+   ],
+   "latency_s": 0.003405243000088376,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 322,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "M04",
+   "type": "multihop",
+   "question": "How long is the initial term after the amendment, and how much notice is needed to terminate for convenience?",
+   "answer": "3.2 The Customer may terminate this Agreement for convenience by giving the Supplier not less than ninety (90) days' written notice. [C1] 2.3 Section 3.1 of the Agreement is amended so that the initial term is forty-eight (48) months from the Effective Date. [C3]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 1 \u00b7 Section 3.2",
+    "02_amendment_no1.pdf \u00b7 p. 1 \u00b7 Section 2.3"
+   ],
+   "latency_s": 0.009636376000116798,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 725,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "M05",
+   "type": "multihop",
+   "question": "Within how many hours must a personal data breach be notified, and within how many days must personal data be deleted after termination?",
+   "answer": "Upon termination of the Agreement, the Processor shall, at the choice of the Controller, return all Personal Data and delete existing copies within sixty (60) days, unless Union or Member State law requires storage. [C2] The Processor shall notify the Controller without undue delay and in any event within forty-eight (48) hours after becoming aware of a personal data breach. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.6666666666666666,
+   "citations": [
+    "03_data_processing_addendum.pdf \u00b7 p. 2 \u00b7 Article 5(1)",
+    "03_data_processing_addendum.pdf \u00b7 p. 1 \u00b7 Article 4(1)"
+   ],
+   "latency_s": 0.007068601999890234,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 465,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "U01",
+   "type": "unanswerable",
+   "question": "What is the governing law of the subcontractor agreement?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.001290664999942237,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 592,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "key term(s) ['subcontractor'] occur in none of the documents"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U02",
+   "type": "unanswerable",
+   "question": "What is the Supplier's annual revenue?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.0016318799998771283,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 346,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "draft-insufficient",
+     "detail": "generator reported insufficient evidence"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U03",
+   "type": "unanswerable",
+   "question": "Who is the Data Protection Officer of Nordwind Logistics GmbH?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.0017092540001613088,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 427,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "draft-insufficient",
+     "detail": "generator reported insufficient evidence"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U04",
+   "type": "unanswerable",
+   "question": "What late-payment penalty does the Data Processing Addendum impose?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.0012070299999322742,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 301,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "key term(s) ['impos', 'penalty'] occur in none of the documents"
+    }
+   ],
+   "conflicts": []
+  }
+ ],
+ "full, context_k=4 (optimisation)": [
+  {
+   "id": "F01",
+   "type": "factual",
+   "question": "What is the aggregate liability cap in Section 7.2 of the Master Services Agreement?",
+   "answer": "7.2 Subject to Section 7.3, each party's total aggregate liability arising out of or in connection with this Agreement shall not exceed EUR 2,000,000 (two million euros) in any contract year. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 7.2"
+   ],
+   "latency_s": 0.003926212000123996,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 185,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F02",
+   "type": "factual",
+   "question": "How much notice does the Customer need to give to terminate the Agreement for convenience?",
+   "answer": "3.2 The Customer may terminate this Agreement for convenience by giving the Supplier not less than ninety (90) days' written notice. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 1 \u00b7 Section 3.2"
+   ],
+   "latency_s": 0.0028840410000157135,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 245,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F03",
+   "type": "factual",
+   "question": "What monthly platform availability does the Supplier guarantee?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.0012269740000192542,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 234,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "key term(s) ['guarante'] occur in none of the documents"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F04",
+   "type": "factual",
+   "question": "Within how many hours must the Processor notify the Controller of a personal data breach?",
+   "answer": "The Processor shall notify the Controller without undue delay and in any event within forty-eight (48) hours after becoming aware of a personal data breach. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.5,
+   "citations": [
+    "03_data_processing_addendum.pdf \u00b7 p. 1 \u00b7 Article 4(1)"
+   ],
+   "latency_s": 0.002616766000073767,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 170,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F05",
+   "type": "factual",
+   "question": "Which law governs the Master Services Agreement and which courts have jurisdiction?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.004374872999960644,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 395,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "draft-insufficient",
+     "detail": "generator reported insufficient evidence"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F06",
+   "type": "factual",
+   "question": "For how long do the confidentiality obligations survive termination?",
+   "answer": "6.2 The obligations in this Section 6 survive termination of this Agreement for a period of five (5) years. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 3 \u00b7 Section 6.2"
+   ],
+   "latency_s": 0.0025541139998495055,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 184,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F07",
+   "type": "factual",
+   "question": "What professional indemnity insurance must the Supplier maintain?",
+   "answer": "INSURANCE 10.1 The Supplier shall maintain professional indemnity insurance with a limit of not less than EUR 5,000,000 per claim and cyber liability insurance of not less than EUR 3,000,000. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 10.1"
+   ],
+   "latency_s": 0.00440669199997501,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 230,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F08",
+   "type": "factual",
+   "question": "Who signed Amendment No. 1 on behalf of Clearpath Software Ltd?",
+   "answer": "Schedule B - Signatories Signed for and on behalf of Clearpath Software Ltd by Maria Jensen, Chief Executive Officer, on 14 February 2026 in Dublin. [C1]",
+   "confidence": "MEDIUM",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "02_amendment_no1.pdf \u00b7 p. 3 \u00b7 Schedule B"
+   ],
+   "latency_s": 0.0032767519999197248,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 259,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F09",
+   "type": "factual",
+   "question": "How much advance notice must the Processor give before adding or replacing a sub-processor?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.0017714299999624927,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 173,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "key term(s) ['befor'] occur in none of the documents"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F10",
+   "type": "factual",
+   "question": "Late payments bear interest above which base rate?",
+   "answer": "Late payments bear interest at eight percentage points above the base rate1. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.5,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 3 \u00b7 Section 4.2"
+   ],
+   "latency_s": 0.0039042529999733233,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 182,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M01",
+   "type": "multihop",
+   "question": "Does the liability cap in Section 7 exceed the total indemnity obligations in Section 9?",
+   "answer": "7.2 Subject to Section 7.3, each party's total aggregate liability arising out of or in connection with this Agreement shall not exceed EUR 2,000,000 (two million euros) in any contract year. [C3] 7.3 Nothing in this Agreement limits liability for death or personal injury caused by negligence, for fraud, or for wilful misconduct. [C5] INDEMNITIES 9.1 The Supplier shall indemnify the Customer against all Losses arising from the claims listed in Table 9.1, up to the amounts stated for each indemnity. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.25,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 7.2",
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 7.3",
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 9.1"
+   ],
+   "latency_s": 0.010868773999845871,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 328,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "3/3 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M02",
+   "type": "multihop",
+   "question": "What is the annual subscription fee after Amendment No. 1, and by how much did it increase compared with the original Agreement?",
+   "answer": "AMENDMENTS 2.1 Section 4.1 of the Agreement is amended so that the annual subscription fee is EUR 1,350,000 (one million three hundred and fifty thousand euros) with effect from 1 March 2026. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 0.5,
+   "region_precision": 1.0,
+   "citations": [
+    "02_amendment_no1.pdf \u00b7 p. 1 \u00b7 Section 2.1"
+   ],
+   "latency_s": 0.005177495999987514,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 207,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M03",
+   "type": "multihop",
+   "question": "What is the current aggregate liability cap, taking Amendment No. 1 into account?",
+   "answer": "7.2 Subject to Section 7.3, each party's total aggregate liability arising out of or in connection with this Agreement shall not exceed EUR 2,000,000 (two million euros) in any contract year. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 0.5,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 7.2"
+   ],
+   "latency_s": 0.0028096949999962817,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 199,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M04",
+   "type": "multihop",
+   "question": "How long is the initial term after the amendment, and how much notice is needed to terminate for convenience?",
+   "answer": "3.2 The Customer may terminate this Agreement for convenience by giving the Supplier not less than ninety (90) days' written notice. [C1] 2.3 Section 3.1 of the Agreement is amended so that the initial term is forty-eight (48) months from the Effective Date. [C3]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 1 \u00b7 Section 3.2",
+    "02_amendment_no1.pdf \u00b7 p. 1 \u00b7 Section 2.3"
+   ],
+   "latency_s": 0.010381014999893523,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 610,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "2/2 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M05",
+   "type": "multihop",
+   "question": "Within how many hours must a personal data breach be notified, and within how many days must personal data be deleted after termination?",
+   "answer": "Upon termination of the Agreement, the Processor shall, at the choice of the Controller, return all Personal Data and delete existing copies within sixty (60) days, unless Union or Member State law requires storage. [C2] The Processor shall notify the Controller without undue delay and in any event within forty-eight (48) hours after becoming aware of a personal data breach. [C1]",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.6666666666666666,
+   "citations": [
+    "03_data_processing_addendum.pdf \u00b7 p. 2 \u00b7 Article 5(1)",
+    "03_data_processing_addendum.pdf \u00b7 p. 1 \u00b7 Article 4(1)"
+   ],
+   "latency_s": 0.0060860239998419274,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 357,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "2/2 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U01",
+   "type": "unanswerable",
+   "question": "What is the governing law of the subcontractor agreement?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.0011251970001922018,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 200,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "key term(s) ['subcontractor'] occur in none of the documents"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U02",
+   "type": "unanswerable",
+   "question": "What is the Supplier's annual revenue?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.0016421899999841116,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 196,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "draft-insufficient",
+     "detail": "generator reported insufficient evidence"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U03",
+   "type": "unanswerable",
+   "question": "Who is the Data Protection Officer of Nordwind Logistics GmbH?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.0016012070000215317,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 259,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "draft-insufficient",
+     "detail": "generator reported insufficient evidence"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U04",
+   "type": "unanswerable",
+   "question": "What late-payment penalty does the Data Processing Addendum impose?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 0.0011705540000548353,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "context_tokens_est": 225,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "key term(s) ['impos', 'penalty'] occur in none of the documents"
+    }
+   ],
+   "conflicts": []
+  }
+ ]
+}

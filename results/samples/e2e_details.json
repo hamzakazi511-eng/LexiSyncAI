@@ -1,0 +1,2592 @@
+{
+ "hybrid+rerank, planner+verifier (full)": [
+  {
+   "id": "F01",
+   "type": "factual",
+   "question": "What is the aggregate liability cap in Section 7.2 of the Master Services Agreement?",
+   "answer": "EUR 2,000,000",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 7.2"
+   ],
+   "latency_s": 11.365758599946275,
+   "prompt_tokens": 1336,
+   "completion_tokens": 157,
+   "context_tokens_est": 548,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F02",
+   "type": "factual",
+   "question": "How much notice does the Customer need to give to terminate the Agreement for convenience?",
+   "answer": "ninety (90) days",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 1 \u00b7 Section 3.2"
+   ],
+   "latency_s": 12.836612700019032,
+   "prompt_tokens": 1014,
+   "completion_tokens": 182,
+   "context_tokens_est": 286,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F03",
+   "type": "factual",
+   "question": "What monthly platform availability does the Supplier guarantee?",
+   "answer": "99.5%",
+   "confidence": "MEDIUM",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 3 \u00b7 Section 5.1"
+   ],
+   "latency_s": 24.907147800084203,
+   "prompt_tokens": 3197,
+   "completion_tokens": 381,
+   "context_tokens_est": 871,
+   "retries": 1,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "draft-rejected",
+     "detail": "1/2 claims supported",
+     "rejected": [
+      {
+       "claim": "The Supplier guarantees at least 98.5% monthly platform availability in 2025.",
+       "reason": "LLM judge: different document"
+      }
+     ]
+    },
+    {
+     "step": 2,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F04",
+   "type": "factual",
+   "question": "Within how many hours must the Processor notify the Controller of a personal data breach?",
+   "answer": "within forty-eight (48) hours",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.5,
+   "citations": [
+    "03_data_processing_addendum.pdf \u00b7 p. 1 \u00b7 Article 4(1)"
+   ],
+   "latency_s": 12.325951399980113,
+   "prompt_tokens": 1453,
+   "completion_tokens": 158,
+   "context_tokens_est": 747,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F05",
+   "type": "factual",
+   "question": "Which law governs the Master Services Agreement and which courts have jurisdiction?",
+   "answer": "The law of the Federal Republic of Germany governs the Master Services Agreement, and the courts of Hamburg, Germany have exclusive jurisdiction.",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.3333333333333333,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 5 \u00b7 Section 12.1",
+    "01_master_services_agreement.pdf \u00b7 p. 5 \u00b7 Section 12.2"
+   ],
+   "latency_s": 11.325575000140816,
+   "prompt_tokens": 1092,
+   "completion_tokens": 221,
+   "context_tokens_est": 303,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "2/2 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F06",
+   "type": "factual",
+   "question": "For how long do the confidentiality obligations survive termination?",
+   "answer": "5 years",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 3 \u00b7 Section 6.2"
+   ],
+   "latency_s": 12.034166499972343,
+   "prompt_tokens": 1212,
+   "completion_tokens": 149,
+   "context_tokens_est": 464,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F07",
+   "type": "factual",
+   "question": "What professional indemnity insurance must the Supplier maintain?",
+   "answer": "The Supplier must maintain professional indemnity insurance with a limit of not less than EUR 5,000,000 per claim and cyber liability insurance of not less than EUR 3,000,000.",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 10.1",
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 10.1"
+   ],
+   "latency_s": 12.071811300003901,
+   "prompt_tokens": 1249,
+   "completion_tokens": 248,
+   "context_tokens_est": 394,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "2/2 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F08",
+   "type": "factual",
+   "question": "Who signed Amendment No. 1 on behalf of Clearpath Software Ltd?",
+   "answer": "Maria Jensen",
+   "confidence": "MEDIUM",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.5,
+   "citations": [
+    "02_amendment_no1.pdf \u00b7 p. 3 \u00b7 Schedule B"
+   ],
+   "latency_s": 11.150761799886823,
+   "prompt_tokens": 1369,
+   "completion_tokens": 132,
+   "context_tokens_est": 563,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F09",
+   "type": "factual",
+   "question": "How much advance notice must the Processor give before adding or replacing a sub-processor?",
+   "answer": "thirty days",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "03_data_processing_addendum.pdf \u00b7 p. 1 \u00b7 Article 3(2)"
+   ],
+   "latency_s": 11.365423300070688,
+   "prompt_tokens": 1469,
+   "completion_tokens": 163,
+   "context_tokens_est": 749,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F10",
+   "type": "factual",
+   "question": "Late payments bear interest above which base rate?",
+   "answer": "eight percentage points above the base rate",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.5,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 3 \u00b7 Section 4.2"
+   ],
+   "latency_s": 12.080253599910066,
+   "prompt_tokens": 1185,
+   "completion_tokens": 139,
+   "context_tokens_est": 379,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M01",
+   "type": "multihop",
+   "question": "Does the liability cap in Section 7 exceed the total indemnity obligations in Section 9?",
+   "answer": "No",
+   "confidence": "MEDIUM",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 7.2",
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Table 9.1"
+   ],
+   "latency_s": 20.582148000132293,
+   "prompt_tokens": 2715,
+   "completion_tokens": 409,
+   "context_tokens_est": 438,
+   "retries": 1,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "draft-rejected",
+     "detail": "0/1 claims supported",
+     "rejected": [
+      {
+       "claim": "The liability cap in Section 7 exceeds the total indemnity obligations in Section 9.",
+       "reason": "LLM judge: The liability cap in Section 7 is EUR 2,000,000, which is lower than the total indemnity obligations in Section 9, which is EUR 3,500,000."
+      }
+     ]
+    },
+    {
+     "step": 2,
+     "event": "verified",
+     "detail": "2/2 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M02",
+   "type": "multihop",
+   "question": "What is the annual subscription fee after Amendment No. 1, and by how much did it increase compared with the original Agreement?",
+   "answer": "EUR 1,350,000",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 0.5,
+   "region_precision": 1.0,
+   "citations": [
+    "02_amendment_no1.pdf \u00b7 p. 1 \u00b7 Section 2.1"
+   ],
+   "latency_s": 11.799801399931312,
+   "prompt_tokens": 1279,
+   "completion_tokens": 159,
+   "context_tokens_est": 392,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M03",
+   "type": "multihop",
+   "question": "What is the current aggregate liability cap, taking Amendment No. 1 into account?",
+   "answer": "EUR 2,500,000",
+   "confidence": "LOW",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 0.5,
+   "region_precision": 1.0,
+   "citations": [
+    "02_amendment_no1.pdf \u00b7 p. 1 \u00b7 Section 2.2"
+   ],
+   "latency_s": 12.496456700144336,
+   "prompt_tokens": 1302,
+   "completion_tokens": 181,
+   "context_tokens_est": 473,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M04",
+   "type": "multihop",
+   "question": "How long is the initial term after the amendment, and how much notice is needed to terminate for convenience?",
+   "answer": "48 months",
+   "confidence": "MEDIUM",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 0.5,
+   "region_precision": 1.0,
+   "citations": [
+    "02_amendment_no1.pdf \u00b7 p. 1 \u00b7 Section 2.3"
+   ],
+   "latency_s": 10.982066900003701,
+   "prompt_tokens": 1175,
+   "completion_tokens": 155,
+   "context_tokens_est": 379,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": [
+    "C3 prevails over C2 for the original term, but C2 amends the initial term to 48 months."
+   ]
+  },
+  {
+   "id": "M05",
+   "type": "multihop",
+   "question": "Within how many hours must a personal data breach be notified, and within how many days must personal data be deleted after termination?",
+   "answer": "48 hours, 60 days",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.6666666666666666,
+   "citations": [
+    "03_data_processing_addendum.pdf \u00b7 p. 1 \u00b7 Article 4(1)",
+    "03_data_processing_addendum.pdf \u00b7 p. 2 \u00b7 Article 5(1)"
+   ],
+   "latency_s": 13.98208410013467,
+   "prompt_tokens": 1370,
+   "completion_tokens": 342,
+   "context_tokens_est": 490,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "2/2 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U01",
+   "type": "unanswerable",
+   "question": "What is the governing law of the subcontractor agreement?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 3.6054546001832932,
+   "prompt_tokens": 112,
+   "completion_tokens": 35,
+   "context_tokens_est": 253,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "the question asks about the 'subcontractor agreement', which is not among the documents in this case"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U02",
+   "type": "unanswerable",
+   "question": "What is the Supplier's annual revenue?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 5.066165099851787,
+   "prompt_tokens": 109,
+   "completion_tokens": 23,
+   "context_tokens_est": 486,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "best evidence score 0.20 < threshold 0.3"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U03",
+   "type": "unanswerable",
+   "question": "Who is the Data Protection Officer of Nordwind Logistics GmbH?",
+   "answer": "No",
+   "confidence": "MEDIUM",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 5 \u00b7 Section 12.2",
+    "03_data_processing_addendum.pdf \u00b7 p. 1 \u00b7 Preamble",
+    "01_master_services_agreement.pdf \u00b7 p. 1 \u00b7 Preamble",
+    "02_amendment_no1.pdf \u00b7 p. 3 \u00b7 Schedule B",
+    "02_amendment_no1.pdf \u00b7 p. 1 \u00b7 Preamble",
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 8.1",
+    "02_amendment_no1.pdf \u00b7 p. 1 \u00b7 Section 1.1",
+    "01_master_services_agreement.pdf \u00b7 p. 2 \u00b7 Section 1"
+   ],
+   "latency_s": 12.769225700059906,
+   "prompt_tokens": 2063,
+   "completion_tokens": 218,
+   "context_tokens_est": 783,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U04",
+   "type": "unanswerable",
+   "question": "What late-payment penalty does the Data Processing Addendum impose?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 5.719452300108969,
+   "prompt_tokens": 113,
+   "completion_tokens": 57,
+   "context_tokens_est": 506,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "best evidence score 0.27 < threshold 0.3"
+    }
+   ],
+   "conflicts": []
+  }
+ ],
+ "dense-only, planner+verifier": [
+  {
+   "id": "F01",
+   "type": "factual",
+   "question": "What is the aggregate liability cap in Section 7.2 of the Master Services Agreement?",
+   "answer": "EUR 2,000,000",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 7.2"
+   ],
+   "latency_s": 9.725946499966085,
+   "prompt_tokens": 1368,
+   "completion_tokens": 157,
+   "context_tokens_est": 558,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F02",
+   "type": "factual",
+   "question": "How much notice does the Customer need to give to terminate the Agreement for convenience?",
+   "answer": "ninety days",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 1 \u00b7 Section 3.2"
+   ],
+   "latency_s": 9.517297100042924,
+   "prompt_tokens": 939,
+   "completion_tokens": 181,
+   "context_tokens_est": 240,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F03",
+   "type": "factual",
+   "question": "What monthly platform availability does the Supplier guarantee?",
+   "answer": "At least 99.5% of the time in each calendar month, excluding scheduled maintenance announced at least 5 Business Days in advance.",
+   "confidence": "MEDIUM",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 3 \u00b7 Section 5.1"
+   ],
+   "latency_s": 17.8486416998785,
+   "prompt_tokens": 2598,
+   "completion_tokens": 424,
+   "context_tokens_est": 549,
+   "retries": 1,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "draft-rejected",
+     "detail": "1/2 claims supported",
+     "rejected": [
+      {
+       "claim": "The Supplier guarantees 100% monthly platform availability in January 2025.",
+       "reason": "LLM judge: different document"
+      }
+     ]
+    },
+    {
+     "step": 2,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F04",
+   "type": "factual",
+   "question": "Within how many hours must the Processor notify the Controller of a personal data breach?",
+   "answer": "within forty-eight (48) hours",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.5,
+   "citations": [
+    "03_data_processing_addendum.pdf \u00b7 p. 1 \u00b7 Article 4(1)"
+   ],
+   "latency_s": 9.203155899886042,
+   "prompt_tokens": 1218,
+   "completion_tokens": 155,
+   "context_tokens_est": 474,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F05",
+   "type": "factual",
+   "question": "Which law governs the Master Services Agreement and which courts have jurisdiction?",
+   "answer": "The law governing the Master Services Agreement is the Federal Republic of Germany, excluding the UN Convention on Contracts for the International Sale of Goods.",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 5 \u00b7 Section 12.1"
+   ],
+   "latency_s": 9.761329900007695,
+   "prompt_tokens": 1152,
+   "completion_tokens": 188,
+   "context_tokens_est": 385,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F06",
+   "type": "factual",
+   "question": "For how long do the confidentiality obligations survive termination?",
+   "answer": "5 years",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 3 \u00b7 Section 6.2"
+   ],
+   "latency_s": 9.091165399877355,
+   "prompt_tokens": 1126,
+   "completion_tokens": 143,
+   "context_tokens_est": 392,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F07",
+   "type": "factual",
+   "question": "What professional indemnity insurance must the Supplier maintain?",
+   "answer": "EUR 5,000,000 per claim and EUR 3,000,000 for cyber liability",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 10.1",
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 10.1"
+   ],
+   "latency_s": 10.82251219986938,
+   "prompt_tokens": 1243,
+   "completion_tokens": 269,
+   "context_tokens_est": 377,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "2/2 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F08",
+   "type": "factual",
+   "question": "Who signed Amendment No. 1 on behalf of Clearpath Software Ltd?",
+   "answer": "Maria Jensen",
+   "confidence": "MEDIUM",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.5,
+   "citations": [
+    "02_amendment_no1.pdf \u00b7 p. 3 \u00b7 Schedule B"
+   ],
+   "latency_s": 9.027164099970832,
+   "prompt_tokens": 1351,
+   "completion_tokens": 132,
+   "context_tokens_est": 562,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F09",
+   "type": "factual",
+   "question": "How much advance notice must the Processor give before adding or replacing a sub-processor?",
+   "answer": "thirty days",
+   "confidence": "MEDIUM",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "03_data_processing_addendum.pdf \u00b7 p. 1 \u00b7 Article 3(2)"
+   ],
+   "latency_s": 9.633770299842581,
+   "prompt_tokens": 1193,
+   "completion_tokens": 174,
+   "context_tokens_est": 401,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F10",
+   "type": "factual",
+   "question": "Late payments bear interest above which base rate?",
+   "answer": "eight percentage points above the base rate",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.5,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 3 \u00b7 Section 4.2"
+   ],
+   "latency_s": 9.019276299979538,
+   "prompt_tokens": 1237,
+   "completion_tokens": 137,
+   "context_tokens_est": 421,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M01",
+   "type": "multihop",
+   "question": "Does the liability cap in Section 7 exceed the total indemnity obligations in Section 9?",
+   "answer": "No",
+   "confidence": "MEDIUM",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 9.1"
+   ],
+   "latency_s": 16.5416649999097,
+   "prompt_tokens": 2694,
+   "completion_tokens": 327,
+   "context_tokens_est": 528,
+   "retries": 1,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "draft-rejected",
+     "detail": "0/1 claims supported",
+     "rejected": [
+      {
+       "claim": "The liability cap in Section 7 exceeds the total indemnity obligations in Section 9.",
+       "reason": "LLM judge: The evidence states that the indemnities in Section 9 are not subject to the cap in Section 7."
+      }
+     ]
+    },
+    {
+     "step": 2,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M02",
+   "type": "multihop",
+   "question": "What is the annual subscription fee after Amendment No. 1, and by how much did it increase compared with the original Agreement?",
+   "answer": "EUR 1,350,000",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 0.5,
+   "region_precision": 1.0,
+   "citations": [
+    "02_amendment_no1.pdf \u00b7 p. 1 \u00b7 Section 2.1"
+   ],
+   "latency_s": 9.440695400116965,
+   "prompt_tokens": 1362,
+   "completion_tokens": 171,
+   "context_tokens_est": 498,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M03",
+   "type": "multihop",
+   "question": "What is the current aggregate liability cap, taking Amendment No. 1 into account?",
+   "answer": "EUR 3,500,000",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 0.5,
+   "region_precision": 0.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Table 9.1"
+   ],
+   "latency_s": 9.617593599949032,
+   "prompt_tokens": 1309,
+   "completion_tokens": 174,
+   "context_tokens_est": 437,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M04",
+   "type": "multihop",
+   "question": "How long is the initial term after the amendment, and how much notice is needed to terminate for convenience?",
+   "answer": "48 months",
+   "confidence": "MEDIUM",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 0.5,
+   "region_precision": 1.0,
+   "citations": [
+    "02_amendment_no1.pdf \u00b7 p. 1 \u00b7 Section 2.3"
+   ],
+   "latency_s": 9.393695800099522,
+   "prompt_tokens": 1104,
+   "completion_tokens": 164,
+   "context_tokens_est": 348,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": [
+    "36 months (C3) vs. 48 months (C1), 48 months prevails due to later amendment and explicit precedence clause in C4."
+   ]
+  },
+  {
+   "id": "M05",
+   "type": "multihop",
+   "question": "Within how many hours must a personal data breach be notified, and within how many days must personal data be deleted after termination?",
+   "answer": "48 hours",
+   "confidence": "MEDIUM",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 0.5,
+   "region_precision": 0.5,
+   "citations": [
+    "03_data_processing_addendum.pdf \u00b7 p. 1 \u00b7 Article 4(1)"
+   ],
+   "latency_s": 9.010201300028712,
+   "prompt_tokens": 1163,
+   "completion_tokens": 142,
+   "context_tokens_est": 400,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U01",
+   "type": "unanswerable",
+   "question": "What is the governing law of the subcontractor agreement?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 2.735896500060335,
+   "prompt_tokens": 112,
+   "completion_tokens": 35,
+   "context_tokens_est": 444,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "the question asks about the 'subcontractor agreement', which is not among the documents in this case"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U02",
+   "type": "unanswerable",
+   "question": "What is the Supplier's annual revenue?",
+   "answer": "EUR 1,350,000",
+   "confidence": "MEDIUM",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [
+    "02_amendment_no1.pdf \u00b7 p. 1 \u00b7 Section 2.1"
+   ],
+   "latency_s": 9.217845000093803,
+   "prompt_tokens": 1323,
+   "completion_tokens": 145,
+   "context_tokens_est": 509,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U03",
+   "type": "unanswerable",
+   "question": "Who is the Data Protection Officer of Nordwind Logistics GmbH?",
+   "answer": "No one is explicitly mentioned as the Data Protection Officer of Nordwind Logistics GmbH.",
+   "confidence": "MEDIUM",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [
+    "03_data_processing_addendum.pdf \u00b7 p. 1 \u00b7 Preamble",
+    "01_master_services_agreement.pdf \u00b7 p. 5 \u00b7 Section 12.2",
+    "01_master_services_agreement.pdf \u00b7 p. 1 \u00b7 Preamble",
+    "02_amendment_no1.pdf \u00b7 p. 1 \u00b7 Preamble",
+    "02_amendment_no1.pdf \u00b7 p. 3 \u00b7 Schedule B",
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 8.1",
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 10.1",
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 9.1"
+   ],
+   "latency_s": 10.545009800000116,
+   "prompt_tokens": 1717,
+   "completion_tokens": 230,
+   "context_tokens_est": 542,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U04",
+   "type": "unanswerable",
+   "question": "What late-payment penalty does the Data Processing Addendum impose?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 3.1193173001520336,
+   "prompt_tokens": 113,
+   "completion_tokens": 57,
+   "context_tokens_est": 470,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "best evidence score 0.28 < threshold 0.3"
+    }
+   ],
+   "conflicts": []
+  }
+ ],
+ "hybrid+rerank, NO verifier": [
+  {
+   "id": "F01",
+   "type": "factual",
+   "question": "What is the aggregate liability cap in Section 7.2 of the Master Services Agreement?",
+   "answer": "EUR 2,000,000",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 7.2"
+   ],
+   "latency_s": 8.010005600051954,
+   "prompt_tokens": 1124,
+   "completion_tokens": 133,
+   "context_tokens_est": 548,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "F02",
+   "type": "factual",
+   "question": "How much notice does the Customer need to give to terminate the Agreement for convenience?",
+   "answer": "ninety (90) days",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 1 \u00b7 Section 3.2"
+   ],
+   "latency_s": 8.008884800132364,
+   "prompt_tokens": 820,
+   "completion_tokens": 158,
+   "context_tokens_est": 286,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "F03",
+   "type": "factual",
+   "question": "What monthly platform availability does the Supplier guarantee?",
+   "answer": "99%",
+   "confidence": "MEDIUM",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 0.5,
+   "citation_recall": 1.0,
+   "region_precision": 0.3333333333333333,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 3 \u00b7 Section 5.1",
+    "02_amendment_no1.pdf \u00b7 p. 2 \u00b7 Schedule C"
+   ],
+   "latency_s": 9.744538600090891,
+   "prompt_tokens": 1292,
+   "completion_tokens": 219,
+   "context_tokens_est": 748,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": [
+    "99.5% (C1) vs 98.5% (C3), 98.5% prevails due to later amendment and specificity"
+   ]
+  },
+  {
+   "id": "F04",
+   "type": "factual",
+   "question": "Within how many hours must the Processor notify the Controller of a personal data breach?",
+   "answer": "within forty-eight (48) hours",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.5,
+   "citations": [
+    "03_data_processing_addendum.pdf \u00b7 p. 1 \u00b7 Article 4(1)"
+   ],
+   "latency_s": 9.241525499848649,
+   "prompt_tokens": 1256,
+   "completion_tokens": 134,
+   "context_tokens_est": 747,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "F05",
+   "type": "factual",
+   "question": "Which law governs the Master Services Agreement and which courts have jurisdiction?",
+   "answer": "The law of the Federal Republic of Germany governs the Master Services Agreement, and the courts of Hamburg, Germany have exclusive jurisdiction.",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.3333333333333333,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 5 \u00b7 Section 12.1",
+    "01_master_services_agreement.pdf \u00b7 p. 5 \u00b7 Section 12.2"
+   ],
+   "latency_s": 8.125421299831942,
+   "prompt_tokens": 813,
+   "completion_tokens": 178,
+   "context_tokens_est": 303,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "F06",
+   "type": "factual",
+   "question": "For how long do the confidentiality obligations survive termination?",
+   "answer": "5 years",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 3 \u00b7 Section 6.2"
+   ],
+   "latency_s": 8.076294999802485,
+   "prompt_tokens": 1035,
+   "completion_tokens": 125,
+   "context_tokens_est": 464,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "F07",
+   "type": "factual",
+   "question": "What professional indemnity insurance must the Supplier maintain?",
+   "answer": "The Supplier must maintain professional indemnity insurance with a limit of not less than EUR 5,000,000 per claim and cyber liability insurance of not less than EUR 3,000,000.",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 10.1",
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 10.1"
+   ],
+   "latency_s": 8.873026499990374,
+   "prompt_tokens": 949,
+   "completion_tokens": 205,
+   "context_tokens_est": 394,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "F08",
+   "type": "factual",
+   "question": "Who signed Amendment No. 1 on behalf of Clearpath Software Ltd?",
+   "answer": "Maria Jensen",
+   "confidence": "MEDIUM",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.5,
+   "citations": [
+    "02_amendment_no1.pdf \u00b7 p. 3 \u00b7 Schedule B"
+   ],
+   "latency_s": 8.528946799924597,
+   "prompt_tokens": 1144,
+   "completion_tokens": 109,
+   "context_tokens_est": 563,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "F09",
+   "type": "factual",
+   "question": "How much advance notice must the Processor give before adding or replacing a sub-processor?",
+   "answer": "thirty days",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "03_data_processing_addendum.pdf \u00b7 p. 1 \u00b7 Article 3(2)"
+   ],
+   "latency_s": 8.632887999992818,
+   "prompt_tokens": 1270,
+   "completion_tokens": 139,
+   "context_tokens_est": 749,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "F10",
+   "type": "factual",
+   "question": "Late payments bear interest above which base rate?",
+   "answer": "eight percentage points above the base rate",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.5,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 3 \u00b7 Section 4.2"
+   ],
+   "latency_s": 8.894575800048187,
+   "prompt_tokens": 969,
+   "completion_tokens": 115,
+   "context_tokens_est": 379,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "M01",
+   "type": "multihop",
+   "question": "Does the liability cap in Section 7 exceed the total indemnity obligations in Section 9?",
+   "answer": "Yes",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 7.2",
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Table 9.1"
+   ],
+   "latency_s": 8.331991099985316,
+   "prompt_tokens": 1041,
+   "completion_tokens": 134,
+   "context_tokens_est": 438,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "M02",
+   "type": "multihop",
+   "question": "What is the annual subscription fee after Amendment No. 1, and by how much did it increase compared with the original Agreement?",
+   "answer": "EUR 1,350,000",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 0.5,
+   "region_precision": 1.0,
+   "citations": [
+    "02_amendment_no1.pdf \u00b7 p. 1 \u00b7 Section 2.1"
+   ],
+   "latency_s": 8.86889489996247,
+   "prompt_tokens": 1065,
+   "completion_tokens": 135,
+   "context_tokens_est": 392,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "M03",
+   "type": "multihop",
+   "question": "What is the current aggregate liability cap, taking Amendment No. 1 into account?",
+   "answer": "EUR 2,500,000",
+   "confidence": "LOW",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 0.5,
+   "region_precision": 1.0,
+   "citations": [
+    "02_amendment_no1.pdf \u00b7 p. 1 \u00b7 Section 2.2"
+   ],
+   "latency_s": 9.43028590013273,
+   "prompt_tokens": 1101,
+   "completion_tokens": 157,
+   "context_tokens_est": 473,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "M04",
+   "type": "multihop",
+   "question": "How long is the initial term after the amendment, and how much notice is needed to terminate for convenience?",
+   "answer": "48 months",
+   "confidence": "MEDIUM",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 0.5,
+   "region_precision": 1.0,
+   "citations": [
+    "02_amendment_no1.pdf \u00b7 p. 1 \u00b7 Section 2.3"
+   ],
+   "latency_s": 8.31487930007279,
+   "prompt_tokens": 992,
+   "completion_tokens": 131,
+   "context_tokens_est": 379,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": [
+    "C3 prevails over C2 for the original term, but C2 amends the initial term for after the amendment."
+   ]
+  },
+  {
+   "id": "M05",
+   "type": "multihop",
+   "question": "Within how many hours must a personal data breach be notified, and within how many days must personal data be deleted after termination?",
+   "answer": "48 hours, 60 days",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.6666666666666666,
+   "citations": [
+    "03_data_processing_addendum.pdf \u00b7 p. 1 \u00b7 Article 4(1)",
+    "03_data_processing_addendum.pdf \u00b7 p. 2 \u00b7 Article 5(1)"
+   ],
+   "latency_s": 9.041259000077844,
+   "prompt_tokens": 1087,
+   "completion_tokens": 156,
+   "context_tokens_est": 490,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "U01",
+   "type": "unanswerable",
+   "question": "What is the governing law of the subcontractor agreement?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 3.6771164999809116,
+   "prompt_tokens": 112,
+   "completion_tokens": 35,
+   "context_tokens_est": 253,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "the question asks about the 'subcontractor agreement', which is not among the documents in this case"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U02",
+   "type": "unanswerable",
+   "question": "What is the Supplier's annual revenue?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 5.0427745000924915,
+   "prompt_tokens": 109,
+   "completion_tokens": 23,
+   "context_tokens_est": 486,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "best evidence score 0.20 < threshold 0.3"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U03",
+   "type": "unanswerable",
+   "question": "Who is the Data Protection Officer of Nordwind Logistics GmbH?",
+   "answer": "No",
+   "confidence": "MEDIUM",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 5 \u00b7 Section 12.2",
+    "03_data_processing_addendum.pdf \u00b7 p. 1 \u00b7 Preamble",
+    "01_master_services_agreement.pdf \u00b7 p. 1 \u00b7 Preamble",
+    "02_amendment_no1.pdf \u00b7 p. 3 \u00b7 Schedule B",
+    "02_amendment_no1.pdf \u00b7 p. 1 \u00b7 Preamble",
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 8.1",
+    "02_amendment_no1.pdf \u00b7 p. 1 \u00b7 Section 1.1",
+    "01_master_services_agreement.pdf \u00b7 p. 2 \u00b7 Section 1"
+   ],
+   "latency_s": 9.337149899918586,
+   "prompt_tokens": 1238,
+   "completion_tokens": 188,
+   "context_tokens_est": 783,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "U04",
+   "type": "unanswerable",
+   "question": "What late-payment penalty does the Data Processing Addendum impose?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 5.641906900098547,
+   "prompt_tokens": 113,
+   "completion_tokens": 57,
+   "context_tokens_est": 506,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "best evidence score 0.27 < threshold 0.3"
+    }
+   ],
+   "conflicts": []
+  }
+ ],
+ "full, context_k=4 (optimisation)": [
+  {
+   "id": "F01",
+   "type": "factual",
+   "question": "What is the aggregate liability cap in Section 7.2 of the Master Services Agreement?",
+   "answer": "EUR 2,000,000",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 7.2"
+   ],
+   "latency_s": 10.497646699892357,
+   "prompt_tokens": 1257,
+   "completion_tokens": 155,
+   "context_tokens_est": 486,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F02",
+   "type": "factual",
+   "question": "How much notice does the Customer need to give to terminate the Agreement for convenience?",
+   "answer": "ninety days",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 1 \u00b7 Section 3.2"
+   ],
+   "latency_s": 10.316075599985197,
+   "prompt_tokens": 834,
+   "completion_tokens": 170,
+   "context_tokens_est": 183,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F03",
+   "type": "factual",
+   "question": "What monthly platform availability does the Supplier guarantee?",
+   "answer": "99.5%",
+   "confidence": "MEDIUM",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 3 \u00b7 Section 5.1"
+   ],
+   "latency_s": 20.208169299876317,
+   "prompt_tokens": 3023,
+   "completion_tokens": 439,
+   "context_tokens_est": 748,
+   "retries": 1,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "draft-rejected",
+     "detail": "1/2 claims supported",
+     "rejected": [
+      {
+       "claim": "The Supplier guarantees at least 98.5% monthly platform availability in 2025.",
+       "reason": "LLM judge: different document"
+      }
+     ]
+    },
+    {
+     "step": 2,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F04",
+   "type": "factual",
+   "question": "Within how many hours must the Processor notify the Controller of a personal data breach?",
+   "answer": "within forty-eight hours",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.5,
+   "citations": [
+    "03_data_processing_addendum.pdf \u00b7 p. 1 \u00b7 Article 4(1)"
+   ],
+   "latency_s": 11.409910900052637,
+   "prompt_tokens": 1401,
+   "completion_tokens": 144,
+   "context_tokens_est": 718,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F05",
+   "type": "factual",
+   "question": "Which law governs the Master Services Agreement and which courts have jurisdiction?",
+   "answer": "The law governing the Master Services Agreement is the law of the Federal Republic of Germany, excluding the UN Convention on Contracts for the International Sale of Goods.",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 5 \u00b7 Section 12.1"
+   ],
+   "latency_s": 10.418319300049916,
+   "prompt_tokens": 909,
+   "completion_tokens": 193,
+   "context_tokens_est": 217,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F06",
+   "type": "factual",
+   "question": "For how long do the confidentiality obligations survive termination?",
+   "answer": "5 years",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 3 \u00b7 Section 6.2"
+   ],
+   "latency_s": 10.561715199844912,
+   "prompt_tokens": 1212,
+   "completion_tokens": 149,
+   "context_tokens_est": 464,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F07",
+   "type": "factual",
+   "question": "What professional indemnity insurance must the Supplier maintain?",
+   "answer": "EUR 5,000,000 per claim and EUR 3,000,000 for cyber liability",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 10.1",
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 10.1"
+   ],
+   "latency_s": 11.329267699969932,
+   "prompt_tokens": 1133,
+   "completion_tokens": 230,
+   "context_tokens_est": 314,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "2/2 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F08",
+   "type": "factual",
+   "question": "Who signed Amendment No. 1 on behalf of Clearpath Software Ltd?",
+   "answer": "Maria Jensen",
+   "confidence": "MEDIUM",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.5,
+   "citations": [
+    "02_amendment_no1.pdf \u00b7 p. 3 \u00b7 Schedule B"
+   ],
+   "latency_s": 10.766751899849623,
+   "prompt_tokens": 1369,
+   "completion_tokens": 132,
+   "context_tokens_est": 563,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F09",
+   "type": "factual",
+   "question": "How much advance notice must the Processor give before adding or replacing a sub-processor?",
+   "answer": "thirty days",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "03_data_processing_addendum.pdf \u00b7 p. 1 \u00b7 Article 3(2)"
+   ],
+   "latency_s": 10.729290000163019,
+   "prompt_tokens": 1122,
+   "completion_tokens": 163,
+   "context_tokens_est": 399,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "F10",
+   "type": "factual",
+   "question": "Late payments bear interest above which base rate?",
+   "answer": "eight percentage points above the base rate",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 0.5,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 3 \u00b7 Section 4.2"
+   ],
+   "latency_s": 11.389899200061336,
+   "prompt_tokens": 1007,
+   "completion_tokens": 139,
+   "context_tokens_est": 277,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M01",
+   "type": "multihop",
+   "question": "Does the liability cap in Section 7 exceed the total indemnity obligations in Section 9?",
+   "answer": "No",
+   "confidence": "MEDIUM",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 1.0,
+   "region_precision": 1.0,
+   "citations": [
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Section 7.2",
+    "01_master_services_agreement.pdf \u00b7 p. 4 \u00b7 Table 9.1"
+   ],
+   "latency_s": 19.531946000177413,
+   "prompt_tokens": 2587,
+   "completion_tokens": 428,
+   "context_tokens_est": 392,
+   "retries": 1,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "draft-rejected",
+     "detail": "0/1 claims supported",
+     "rejected": [
+      {
+       "claim": "The liability cap in Section 7 exceeds the total indemnity obligations in Section 9.",
+       "reason": "LLM judge: The liability cap in Section 7 is EUR 2,000,000, which is lower than the total indemnity obligations in Section 9, which is EUR 3,500,000."
+      }
+     ]
+    },
+    {
+     "step": 2,
+     "event": "verified",
+     "detail": "2/2 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": [
+    "EUR 2,000,000 (C1) vs EUR 2,500,000 (C3) - C3 prevails because it is a later amendment"
+   ]
+  },
+  {
+   "id": "M02",
+   "type": "multihop",
+   "question": "What is the annual subscription fee after Amendment No. 1, and by how much did it increase compared with the original Agreement?",
+   "answer": "EUR 1,350,000",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 0.5,
+   "region_precision": 1.0,
+   "citations": [
+    "02_amendment_no1.pdf \u00b7 p. 1 \u00b7 Section 2.1"
+   ],
+   "latency_s": 11.235347000183538,
+   "prompt_tokens": 1153,
+   "completion_tokens": 159,
+   "context_tokens_est": 315,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M03",
+   "type": "multihop",
+   "question": "What is the current aggregate liability cap, taking Amendment No. 1 into account?",
+   "answer": "EUR 2,500,000",
+   "confidence": "LOW",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": 1.0,
+   "citation_recall": 0.5,
+   "region_precision": 1.0,
+   "citations": [
+    "02_amendment_no1.pdf \u00b7 p. 1 \u00b7 Section 2.2"
+   ],
+   "latency_s": 11.960491500096396,
+   "prompt_tokens": 1243,
+   "completion_tokens": 181,
+   "context_tokens_est": 435,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "M04",
+   "type": "multihop",
+   "question": "How long is the initial term after the amendment, and how much notice is needed to terminate for convenience?",
+   "answer": "48 months",
+   "confidence": "MEDIUM",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 0.5,
+   "region_precision": 1.0,
+   "citations": [
+    "02_amendment_no1.pdf \u00b7 p. 1 \u00b7 Section 2.3"
+   ],
+   "latency_s": 10.82224000012502,
+   "prompt_tokens": 999,
+   "completion_tokens": 170,
+   "context_tokens_est": 281,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": [
+    "36 months (C3) vs. 48 months (C2), C2 prevails due to explicit precedence clause in C5"
+   ]
+  },
+  {
+   "id": "M05",
+   "type": "multihop",
+   "question": "Within how many hours must a personal data breach be notified, and within how many days must personal data be deleted after termination?",
+   "answer": "48 hours",
+   "confidence": "HIGH",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": 1.0,
+   "citation_recall": 0.5,
+   "region_precision": 0.5,
+   "citations": [
+    "03_data_processing_addendum.pdf \u00b7 p. 1 \u00b7 Article 4(1)"
+   ],
+   "latency_s": 10.789712100056931,
+   "prompt_tokens": 1039,
+   "completion_tokens": 139,
+   "context_tokens_est": 330,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "verified",
+     "detail": "1/1 claims supported",
+     "rejected": []
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U01",
+   "type": "unanswerable",
+   "question": "What is the governing law of the subcontractor agreement?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 3.5785485999658704,
+   "prompt_tokens": 112,
+   "completion_tokens": 35,
+   "context_tokens_est": 220,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "the question asks about the 'subcontractor agreement', which is not among the documents in this case"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U02",
+   "type": "unanswerable",
+   "question": "What is the Supplier's annual revenue?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 5.034868099959567,
+   "prompt_tokens": 109,
+   "completion_tokens": 23,
+   "context_tokens_est": 411,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "best evidence score 0.20 < threshold 0.3"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U03",
+   "type": "unanswerable",
+   "question": "Who is the Data Protection Officer of Nordwind Logistics GmbH?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 26.37872130004689,
+   "prompt_tokens": 3391,
+   "completion_tokens": 493,
+   "context_tokens_est": 301,
+   "retries": 3,
+   "retry_log": [
+    {
+     "step": 1,
+     "event": "draft-rejected",
+     "detail": "0/1 claims supported",
+     "rejected": [
+      {
+       "claim": "The Data Protection Officer of Nordwind Logistics GmbH is not mentioned in the provided passages.",
+       "reason": "LLM judge: The Data Protection Officer of Nordwind Logistics GmbH is mentioned in the Schedule B - Signatories section."
+      }
+     ]
+    },
+    {
+     "step": 2,
+     "event": "draft-rejected",
+     "detail": "0/1 claims supported",
+     "rejected": [
+      {
+       "claim": "The Data Protection Officer of Nordwind Logistics GmbH is not mentioned in the provided passages.",
+       "reason": "LLM judge: The Data Protection Officer of Nordwind Logistics GmbH is mentioned in the Schedule B - Signatories section."
+      }
+     ]
+    },
+    {
+     "step": 3,
+     "event": "draft-rejected",
+     "detail": "0/1 claims supported",
+     "rejected": [
+      {
+       "claim": "The Data Protection Officer of Nordwind Logistics GmbH is not mentioned in the provided passages.",
+       "reason": "LLM judge: The Data Protection Officer of Nordwind Logistics GmbH is mentioned in the Schedule B - Signatories section."
+      }
+     ]
+    },
+    {
+     "step": 3,
+     "event": "step-cap",
+     "detail": "max steps reached; dropping unsupported claims"
+    }
+   ],
+   "conflicts": []
+  },
+  {
+   "id": "U04",
+   "type": "unanswerable",
+   "question": "What late-payment penalty does the Data Processing Addendum impose?",
+   "answer": "The documents do not contain enough evidence to answer this question. Searched: 01_master_services_agreement.pdf, 02_amendment_no1.pdf, 03_data_processing_addendum.pdf.",
+   "confidence": "INSUFFICIENT EVIDENCE",
+   "abstained": true,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 5.652831600047648,
+   "prompt_tokens": 113,
+   "completion_tokens": 57,
+   "context_tokens_est": 459,
+   "retries": 0,
+   "retry_log": [
+    {
+     "step": 0,
+     "event": "abstain-gate",
+     "detail": "best evidence score 0.27 < threshold 0.3"
+    }
+   ],
+   "conflicts": []
+  }
+ ],
+ "NO retrieval (LLM only)": [
+  {
+   "id": "F01",
+   "type": "factual",
+   "question": "What is the aggregate liability cap in Section 7.2 of the Master Services Agreement?",
+   "answer": "The aggregate liability cap in Section 7.2 of the Master Services Agreement is $500,000.",
+   "confidence": "UNGROUNDED",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 3.7613309998996556,
+   "prompt_tokens": 99,
+   "completion_tokens": 107,
+   "context_tokens_est": 0,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "F02",
+   "type": "factual",
+   "question": "How much notice does the Customer need to give to terminate the Agreement for convenience?",
+   "answer": "30 days",
+   "confidence": "UNGROUNDED",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 3.8313612998463213,
+   "prompt_tokens": 97,
+   "completion_tokens": 116,
+   "context_tokens_est": 0,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "F03",
+   "type": "factual",
+   "question": "What monthly platform availability does the Supplier guarantee?",
+   "answer": "99.95%",
+   "confidence": "UNGROUNDED",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 3.560205099871382,
+   "prompt_tokens": 90,
+   "completion_tokens": 98,
+   "context_tokens_est": 0,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "F04",
+   "type": "factual",
+   "question": "Within how many hours must the Processor notify the Controller of a personal data breach?",
+   "answer": "72 hours",
+   "confidence": "UNGROUNDED",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 3.667468599975109,
+   "prompt_tokens": 97,
+   "completion_tokens": 103,
+   "context_tokens_est": 0,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "F05",
+   "type": "factual",
+   "question": "Which law governs the Master Services Agreement and which courts have jurisdiction?",
+   "answer": "The Master Services Agreement is governed by the laws of the State of California and the federal laws of the United States. The courts of the State of California in San Francisco County shall have jurisdiction over any disputes arising out of or related to the Agreement.",
+   "confidence": "UNGROUNDED",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 4.807895000092685,
+   "prompt_tokens": 95,
+   "completion_tokens": 189,
+   "context_tokens_est": 0,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "F06",
+   "type": "factual",
+   "question": "For how long do the confidentiality obligations survive termination?",
+   "answer": "Generally, confidentiality obligations survive termination for a period of 2-5 years, depending on the specific agreement and jurisdiction.",
+   "confidence": "UNGROUNDED",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 4.428809099830687,
+   "prompt_tokens": 91,
+   "completion_tokens": 158,
+   "context_tokens_est": 0,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "F07",
+   "type": "factual",
+   "question": "What professional indemnity insurance must the Supplier maintain?",
+   "answer": "The Supplier must maintain professional indemnity insurance with a minimum limit of indemnity of $1 million.",
+   "confidence": "UNGROUNDED",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 3.7410568001214415,
+   "prompt_tokens": 91,
+   "completion_tokens": 107,
+   "context_tokens_est": 0,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "F08",
+   "type": "factual",
+   "question": "Who signed Amendment No. 1 on behalf of Clearpath Software Ltd?",
+   "answer": "Robert D. Silverman",
+   "confidence": "UNGROUNDED",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 3.764683000044897,
+   "prompt_tokens": 96,
+   "completion_tokens": 114,
+   "context_tokens_est": 0,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "F09",
+   "type": "factual",
+   "question": "How much advance notice must the Processor give before adding or replacing a sub-processor?",
+   "answer": "At least 30 days",
+   "confidence": "UNGROUNDED",
+   "abstained": false,
+   "auto_correct": true,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 3.5349153000861406,
+   "prompt_tokens": 98,
+   "completion_tokens": 93,
+   "context_tokens_est": 0,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "F10",
+   "type": "factual",
+   "question": "Late payments bear interest above which base rate?",
+   "answer": "Statutory rate",
+   "confidence": "UNGROUNDED",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 4.264872800093144,
+   "prompt_tokens": 90,
+   "completion_tokens": 145,
+   "context_tokens_est": 0,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "M01",
+   "type": "multihop",
+   "question": "Does the liability cap in Section 7 exceed the total indemnity obligations in Section 9?",
+   "answer": "No",
+   "confidence": "UNGROUNDED",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 4.686492100125179,
+   "prompt_tokens": 100,
+   "completion_tokens": 177,
+   "context_tokens_est": 0,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "M02",
+   "type": "multihop",
+   "question": "What is the annual subscription fee after Amendment No. 1, and by how much did it increase compared with the original Agreement?",
+   "answer": "The annual subscription fee after Amendment No. 1 is 1,000,000 (one million) units of account. It increased by 50% compared with the original Agreement.",
+   "confidence": "UNGROUNDED",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 5.436393799958751,
+   "prompt_tokens": 107,
+   "completion_tokens": 229,
+   "context_tokens_est": 0,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "M03",
+   "type": "multihop",
+   "question": "What is the current aggregate liability cap, taking Amendment No. 1 into account?",
+   "answer": "The current aggregate liability cap, taking Amendment No. 1 into account, is $250,000 per occurrence and $500,000 aggregate for all occurrences in a policy year, as per the Texas Tort Claims Act, Section 101.023, Texas Civil Practice and Remedies Code.",
+   "confidence": "UNGROUNDED",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 4.495312900049612,
+   "prompt_tokens": 98,
+   "completion_tokens": 160,
+   "context_tokens_est": 0,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "M04",
+   "type": "multihop",
+   "question": "How long is the initial term after the amendment, and how much notice is needed to terminate for convenience?",
+   "answer": "The initial term after the amendment is 5 years. Notice of 180 days is required to terminate for convenience.",
+   "confidence": "UNGROUNDED",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 4.917669499991462,
+   "prompt_tokens": 102,
+   "completion_tokens": 187,
+   "context_tokens_est": 0,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "M05",
+   "type": "multihop",
+   "question": "Within how many hours must a personal data breach be notified, and within how many days must personal data be deleted after termination?",
+   "answer": "72 hours and without undue delay",
+   "confidence": "UNGROUNDED",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": 0.0,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 3.996927000116557,
+   "prompt_tokens": 106,
+   "completion_tokens": 126,
+   "context_tokens_est": 0,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "U01",
+   "type": "unanswerable",
+   "question": "What is the governing law of the subcontractor agreement?",
+   "answer": "The governing law of the subcontractor agreement is typically specified in the agreement itself, but it is often the law of the state where the project is located or the law of the state where the subcontractor is based.",
+   "confidence": "UNGROUNDED",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 5.329800300067291,
+   "prompt_tokens": 92,
+   "completion_tokens": 221,
+   "context_tokens_est": 0,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "U02",
+   "type": "unanswerable",
+   "question": "What is the Supplier's annual revenue?",
+   "answer": "The Supplier's annual revenue is not explicitly stated in the provided information.",
+   "confidence": "UNGROUNDED",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 3.3360761997755617,
+   "prompt_tokens": 89,
+   "completion_tokens": 76,
+   "context_tokens_est": 0,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "U03",
+   "type": "unanswerable",
+   "question": "Who is the Data Protection Officer of Nordwind Logistics GmbH?",
+   "answer": "The Data Protection Officer of Nordwind Logistics GmbH is not publicly available. However, according to the company's website, the contact information for data protection inquiries is [datenschutz@nordwind-logistics.de](mailto:datenschutz@nordwind-logistics.de).",
+   "confidence": "UNGROUNDED",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 4.906529899919406,
+   "prompt_tokens": 93,
+   "completion_tokens": 192,
+   "context_tokens_est": 0,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  },
+  {
+   "id": "U04",
+   "type": "unanswerable",
+   "question": "What late-payment penalty does the Data Processing Addendum impose?",
+   "answer": "A late-payment penalty of 1.5% per month or the maximum rate permitted by applicable law, whichever is less.",
+   "confidence": "UNGROUNDED",
+   "abstained": false,
+   "auto_correct": false,
+   "citation_precision": NaN,
+   "citation_recall": NaN,
+   "region_precision": NaN,
+   "citations": [],
+   "latency_s": 5.027138900011778,
+   "prompt_tokens": 93,
+   "completion_tokens": 197,
+   "context_tokens_est": 0,
+   "retries": 0,
+   "retry_log": [],
+   "conflicts": []
+  }
+ ]
+}

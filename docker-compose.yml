@@ -1,0 +1,26 @@
+services:
+  ollama:
+    image: ollama/ollama:latest
+    volumes: [ollama:/root/.ollama]
+    ports: ["11434:11434"]
+
+  ollama-pull:            # one-shot: pulls the local LLM on first start
+    image: ollama/ollama:latest
+    depends_on: [ollama]
+    environment: [OLLAMA_HOST=ollama:11434]
+    entrypoint: ["/bin/sh", "-c", "sleep 5 && ollama pull ${LEXI_OLLAMA_MODEL:-llama3.1:8b}"]
+
+  app:
+    build: .
+    depends_on: [ollama]
+    ports: ["8501:8501"]
+    environment:
+      - OLLAMA_URL=http://ollama:11434
+      - LEXI_LLM_BACKEND=${LEXI_LLM_BACKEND:-ollama}
+      - LEXI_OLLAMA_MODEL=${LEXI_OLLAMA_MODEL:-llama3.1:8b}
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - OPENAI_BASE_URL=${OPENAI_BASE_URL:-https://api.groq.com/openai/v1}
+    volumes: [./data:/app/data, ./results:/app/results]
+
+volumes:
+  ollama:
