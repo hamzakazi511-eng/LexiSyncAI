@@ -165,9 +165,12 @@ with tab_ask:
             st.session_state.q = q
             with st.spinner("Planning → retrieving → drafting → verifying…"):
                 qa = QAPipeline(case, llm=llm, mode=mode, use_verifier=use_verifier)
-                st.session_state.setdefault("answers", []).insert(0, qa.ask(q.strip()))
+                ans = qa.ask(q.strip())
+                ans.case_id = case.case_id
+                st.session_state.setdefault("answers", []).insert(0, ans)
 
-        for n, a in enumerate(st.session_state.get("answers", [])[:5]):
+        answers = [a for a in st.session_state.get("answers", []) if getattr(a, "case_id", None) == case.case_id]
+        for n, a in enumerate(answers[:5]):
             if n:
                 st.divider()
                 st.caption("Earlier question")
@@ -196,7 +199,12 @@ with tab_ask:
                             st.caption("🟧 exact phrase box" if exact else "🟦 paragraph box")
                         with right:
                             for p in ci.pages[:2]:
-                                st.image(case.render_page(ci.doc_id, p, ci.regions, zoom=1.3),
+                                try:
+                                    png = case.render_page(ci.doc_id, p, ci.regions, zoom=1.3)
+                                except Exception:
+                                    st.caption("Page preview unavailable (document not in this case or index rebuilt).")
+                                    continue
+                                st.image(png,
                                          caption=f"{ci.doc_name} – page {p}", width="stretch")
 
             with st.expander("🔍 Pipeline details: plan, verifier log, retrieved context, latency"):

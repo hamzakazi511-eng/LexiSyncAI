@@ -89,6 +89,26 @@ class _State:
         return " > ".join(parts) or self.label
 
 
+def _article_no(label: str | None) -> int | None:
+    m = re.match(r"Article (\d+)", label or "")
+    return int(m.group(1)) if m else None
+
+
+def _is_article_heading(m: re.Match, st: "_State") -> bool:
+    """'Article 83' / 'Article 5 Deletion and return of data' is a heading; a cross-reference that happens to
+    start a text block ('Article 42; and', 'Article 40 or approved ...') is not. Article numbers also never go
+    backwards inside one document."""
+    rest = m.group(2).strip()
+    if rest and not (rest[0].isupper() or rest[0] in "(\"\u201c") :
+        return False
+    if rest and (len(rest.split()) > 12 or rest.rstrip().endswith((";", ",", " and", " or"))):
+        return False
+    new, cur = int(re.match(r"\d+", m.group(1)).group(0)), _article_no(st.major)
+    if cur is not None and new < cur:
+        return False
+    return True
+
+
 def _classify(u: Unit, st: _State) -> tuple[str | None, str]:
     """Return (new_label or None, inline title)."""
     t = u.text.strip()
@@ -96,7 +116,7 @@ def _classify(u: Unit, st: _State) -> tuple[str | None, str]:
         label = f"{m.group(1).title()} {m.group(2)}"
         st.top, st.major, st.style = label, None, st.style
         return label, m.group(3)
-    if m := ART_RE.match(t):
+    if (m := ART_RE.match(t)) and _is_article_heading(m, st):
         label = f"Article {m.group(1)}"
         st.major, st.style = label, "article"
         return label, m.group(2)
