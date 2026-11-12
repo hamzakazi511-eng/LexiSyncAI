@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.env
+data/cases/
+data/gdpr/*.pdf
+results/*/_case/
+*.scan.png
