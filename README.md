@@ -2,6 +2,8 @@
 
 Final assignment DA3 – Deep Learning & GenAI (Prof. Dr. Gayan de Silva).
 
+**GitHub:** https://github.com/hamzakazi511-eng/LexiSyncAI
+
 LexiSyncAI ingests a bundle of 2–5 public legal PDFs (contracts, statutes, judgments, filings) and answers complex questions about them.
 - Every claim in an answer is cited to **document · page · clause**, and the cited region is highlighted on the page image.
 - When the documents do not contain the evidence, the system **abstains** instead of guessing.
